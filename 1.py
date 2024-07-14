@@ -1,3 +1,6 @@
+""" “raqamlar” nomli tekst fayl ichiga 1 dan 10 gacha 
+sonlarni kiritib, ularning yig'indisini ekranga 
+chiqaruvchi dastur yarating."""
 with open("raqamlar.txt", "w+") as f:
     sum = 0
     for x in range(1, 10 + 1):
